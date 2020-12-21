@@ -12,6 +12,7 @@ public class Test1 {
         int b = 0;
         while ((b = is.read()) != -1) {
             os.write("-".getBytes());
+            System.out.println("11111111111");
         }
         os.close();
         is.close();
